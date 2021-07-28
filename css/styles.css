@@ -1,0 +1,175 @@
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.title-button {
+  text-align: left;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.title-heading {
+  color: white;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 250px 15%;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Ubuntu";
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+  font-size: 19px;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.custom {
+  font-size: 80px;
+  color: #ff8585;
+}
+
+.custom:hover {
+  color: #ff4c68;
+}
+
+.intro {
+  padding: 100px 250px 100px 250px;
+}
+
+.headings {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+}
+
+.heading1 {
+  color: #8f8f8f;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.check {
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.press-img {
+  width: 200px;
+  padding: 0 10px 0 10px;
+}
+
+.carousel-item {
+  padding: 150px 200px 150px 200px;
+}
+
+.card-button {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 20px 20px 20px 20px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.cta-header {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 300px 0 300px;
+}
+
+.cta-icon {
+  margin-right: 10px;
+  font-family: 'Montserrat';
+}
+
+#footer {
+  padding-top: 30px;
+}
+
+.footer-icon {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-link:hover {
+  color: #7e7474;
+}
+
+.footer-copyright {
+  color: #8f8f8f;
+}
+
+@media (max-width:1036px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 30px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
